@@ -8,3 +8,5 @@ def hello():
 @app.route("/floerer")
 def poc():
     return "Hello, this is floerer! This is the PoC for subdomain takeover"
+if __name__ == '__main__':
+    app.run(debug=True)
